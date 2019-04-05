@@ -63,3 +63,71 @@
 .icon-youtube:before {
   content: "\68";
 }
+
+/* style template */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    width: 100%;
+}
+
+/* Header style */
+
+.main-header {
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #DE423A;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.phone {
+    background: #DE423A;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.location {
+    padding: 10px;
+    margin: 0;
+}
+
+.main-header [class*="icon-"]:before {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
